@@ -1,0 +1,22 @@
+{
+	"Credential": "cf",
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=com.mdk.style.demo.id&ClientId=04d6702e-a088-4c28-afd2-e9d4bfba6d95&ServerUrl=https://75c34e16trial-mobileservicespacename-com-mdk-style-demo-id.cfapps.eu10.hana.ondemand.com&SapCloudPlatformEndpoint=https://75c34e16trial-mobileservicespacename-com-mdk-style-demo-id.cfapps.eu10.hana.ondemand.com&AuthorizationEndpointUrl=https://75c34e16trial-mobileservicespacename-com-mdk-style-demo-id.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://75c34e16trial-mobileservicespacename-com-mdk-style-demo-id.cfapps.eu10.hana.ondemand.com&TokenUrl=https://75c34e16trial-mobileservicespacename-com-mdk-style-demo-id.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/token"
+	},
+	"CF": {
+		"Target": "https://api.cf.eu10.hana.ondemand.com",
+		"Organization": "d4ea35ce-9cb9-4aef-a690-1a94d1e00c04",
+		"Space": "b4c5c8db-4c98-4f91-a083-91ac1865f90f"
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.eu10.hana.ondemand.com/cockpit/v1/org/d4ea35ce-9cb9-4aef-a690-1a94d1e00c04/space/b4c5c8db-4c98-4f91-a083-91ac1865f90f",
+		"AppId": "com.mdk.style.demo.id",
+		"Destination": [
+			"com.sap.edm.sampleservice.v2",
+			"com.mdk.style.demo.mobile.connectivity.destination.name"
+		]
+	}
+}

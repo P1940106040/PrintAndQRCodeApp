@@ -1,0 +1,6 @@
+{
+	"DestinationName": "com.mdk.style.demo.mobile.connectivity.destination.name",
+	"LanguageURLParam": "sap-language",
+	"OfflineEnabled": false,
+	"SourceType": "Mobile"
+}
